@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_35464"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/lenid"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/dark_blue"
+        android:text="Length Converter"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weiid"
+        app:layout_constraintVertical_bias="0.176" />
+
+    <Button
+        android:id="@+id/timid"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/dark_blue"
+        android:text="Time Converter"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lenid"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <Button
+        android:id="@+id/temid"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/dark_blue"
+        android:text="Temperature Converter"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timid"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <Button
+        android:id="@+id/weiid"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/dark_blue"
+        android:text="Weight Converter"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <TextView
+        android:id="@+id/textid"
+        android:layout_width="325dp"
+        android:layout_height="65dp"
+        android:fontFamily="casual"
+        android:text="Converter"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.204" />
+</androidx.constraintlayout.widget.ConstraintLayout>
